@@ -1,52 +1,44 @@
 body{
     margin: 0%;
     padding: 0%;
-    width: 100%;
+}
+/* --------------------------------------------------------------------------- */
+.temp{
+    background-color: white;
+}
+.img2{
+    border-radius: 30%;
+    border: 2px solid gray;
+    height: 40px;
+    width: 40px;
 }
 nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* position: fixed; */
+    background-color: white;
+    border-bottom: 2px solid black;
 }
-.logo{
+.items1{
     display: flex;
-    height: 45px;
-    width: 45px;
-    border: 3px solid lightslategray;
-    border-radius: 30%;
-    margin-left: 40px;
 }
-.img1{
-    border-radius: 30%;
-}
-.items{
+.items2{
     display: flex;
-    margin-right: 200px;
 }
-.item{
-    margin: 5px 20px;
+.item1{
+    margin: 0px 20px;
     list-style: none;
 }
-.hlink{
-    color: black;
-    font-size: large;
-    text-decoration: none;
-    font-style: normal;
+.item2{
+    margin: 0px 20px;
+    list-style: none;
 }
-.nav-content{
+.nav1{
+    margin: 10px 50px;
     display: flex;
 }
-.account{
+.nav2{
+    margin: 0px 300px;
     display: flex;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 200px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 100%;
-}
-.itemLog{
-    margin: 10px;
 }
 .button{
     background-color: white;
@@ -59,6 +51,13 @@ nav{
     background-color: blue;
     color: white;
 }
+.hlink{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    font-style: normal;
+}
+/* ------------------------------------------------------------------------------- */
 section{
     margin: 0%;
 }
@@ -136,31 +135,6 @@ article{
 }
 .lk{
     font-size: x-large;
-}
-@media screen and (max-width: 800px) {
-    article{
-       flex-direction: column;
-    }
-    .partition{
-        flex-direction: column;
-    }
-    .t1{
-        flex-direction: column;
-    }
-}
-@media  screen and (max-width: 800px) {
-    .nav-content{
-        flex-direction: column;
-    }
-    .nav{
-        flex-direction: column;
-    }
-    .items{
-        flex-direction: column;
-    }
-    .account{
-        flex-direction: column;
-    }
 }
 li:hover{
    border-bottom: 2px solid black;
@@ -240,7 +214,31 @@ hr{
     margin: 0%;
     width: 30%;
 }
+@media screen and (max-width: 1100px) {
+    .nav1{
+        flex-direction: column;
+    }
+    .nav2{
+        flex-direction: column;
+        margin: 0%;
+    }
+    .items1{
+        flex-direction: column;
+    }
+    .items2{
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 800px) {
+    article{
+        flex-direction: column;
+     }
+     .partition{
+         flex-direction: column;
+     }
+     .t1{
+         flex-direction: column;
+     }
      .container{
          flex-direction: column;
      }
