@@ -267,5 +267,6 @@ hr{
      }
      .nav{
          flex-direction: column;
+         width: 60%;
      }
     }
