@@ -1,0 +1,265 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    height: 45px;
+    width: 45px;
+    border: 3px solid lightslategray;
+    border-radius: 30%;
+    margin-left: 40px;
+}
+.img1{
+    border-radius: 30%;
+}
+.items{
+    display: flex;
+    margin-right: 200px;
+}
+.item{
+    margin: 5px 20px;
+    list-style: none;
+}
+.hlink{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    font-style: normal;
+}
+.nav-content{
+    display: flex;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.itemLog{
+    margin: 10px;
+}
+.button{
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
+    border-radius: 20px;
+    border-color: blue;
+}
+.b2{
+    background-color: blue;
+    color: white;
+}
+section{
+    margin: 0%;
+}
+.s1head{
+    margin: 0%;
+}
+hgroup{
+    margin: 0%;
+    font-size:50px;
+    font-style:normal;
+    padding: 100px;
+    padding-bottom: 0%;
+    color: white;
+}
+.phnum{
+    padding: 10px 20px;
+}
+.btlink{
+    background-color: gold;
+    color: 2px solid black;
+    padding: 10px 32px;
+    border-radius: 20px;
+    border-color: blue;
+    margin: 10px;
+}
+.section1{
+    background-color: darkblue;
+}
+.stmts{
+    color: white;
+}
+.feature{
+    padding-bottom: 20px;
+}
+.partition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1b{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.interp1{
+    margin: 20px;
+}
+.interp2{
+    margin: 20px;
+    border-left: 3px solid black;
+    padding-left: 20px;
+}
+.t1{
+    display: flex;
+    margin: 20px 300px;
+}
+.tab{
+    margin: 10px;
+}
+.AImage{
+    height: 500px;
+    width: 500px;
+}
+article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 200px;
+}
+.pt{
+    font-size:large;
+    margin: 20px;
+}
+.heading1{
+    font-size: xx-large;
+}
+.lk{
+    font-size: x-large;
+}
+@media screen and (max-width: 800px) {
+    article{
+       flex-direction: column;
+    }
+    .partition{
+        flex-direction: column;
+    }
+    .t1{
+        flex-direction: column;
+    }
+}
+@media  screen and (max-width: 800px) {
+    .nav-content{
+        flex-direction: column;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .items{
+        flex-direction: column;
+    }
+    .account{
+        flex-direction: column;
+    }
+}
+li:hover{
+   border-bottom: 2px solid black;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 200px;
+}
+.lbtn{
+    background-color: white;
+    color: black;
+    padding: 10px 32px;
+    border-radius: 20px;
+    border-color: blue;
+}
+.section5{
+    background-color: darkblue;
+    padding: 70px;
+}
+.qt1{
+    font-size: xx-large;
+    color: white;
+}
+.foot{
+    margin: 50px;
+}
+.opts{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0%;
+    padding: 0%;
+}
+.opt{
+    list-style: none;
+    margin: 15px;
+    color: lightgray;
+}
+.hlink1{
+    color: black;
+    font-size:small;
+    text-decoration: none;
+    font-style: normal;
+}
+.section6{
+    margin: 40px;
+}
+.section7{
+    margin: 40px;
+}
+hr{
+    margin: 0%;
+}
+.hlink2{
+    color: rgb(81, 47, 47);
+    font-size:small;
+    text-decoration: none;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+.opts1{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0%;
+    margin: 0%;
+    width: 70%;
+}
+.opts2{
+    display: flex;
+    justify-content:flex-end;
+    padding: 0%;
+    margin: 0%;
+    width: 30%;
+}
+@media screen and (max-width: 800px) {
+     .container{
+         flex-direction: column;
+     }
+    .opts{
+        flex-direction: column;
+    }
+     .opts1{
+         flex-direction: column;
+     }
+     .opts2{
+         flex-direction: column;
+     }
+     .section4{
+         flex-direction: column;
+     }
+     .pt{
+         flex-direction: column;
+     }
+     .nav{
+         flex-direction: column;
+     }
+    }
