@@ -220,7 +220,6 @@ hr{
     }
     .nav2{
         flex-direction: column;
-        justify-content: flex-end;
         margin: 0%;
     }
     .items1{
