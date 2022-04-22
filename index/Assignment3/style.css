@@ -1,0 +1,18 @@
+body{
+    justify-content: center;
+    display: flex;
+    background-color: orange;
+}
+.container{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+fieldset{
+    margin: 20px;
+}
+.container3{
+    margin: 20px;
+}
+.set{
+    margin: 5px;
+}
