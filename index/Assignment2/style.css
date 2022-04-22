@@ -4,6 +4,9 @@ body{
     background-color: orange;
     max-width: 100%;
 }
+h2{
+    padding: 0px 20px;
+}
 .container{
     border: 2px solid black;
 }
