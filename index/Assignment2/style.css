@@ -1,0 +1,10 @@
+body{
+    justify-content: center;
+}
+.container{
+    padding: 10% 20%;
+}
+.video1{
+    height: 400px;
+    width: 400px;
+}

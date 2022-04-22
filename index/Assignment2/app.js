@@ -1,0 +1,1 @@
+var temp = document.getElementsByClassName("video1").controls=true;
