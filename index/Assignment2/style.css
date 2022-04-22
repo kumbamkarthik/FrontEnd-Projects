@@ -1,10 +1,13 @@
 body{
     justify-content: center;
+    display: flex;
+    background-color: orange;
 }
 .container{
-    padding: 10% 20%;
+    border: 2px solid black;
 }
 .video1{
+    padding: 40px;
     height: 400px;
     width: 400px;
 }
