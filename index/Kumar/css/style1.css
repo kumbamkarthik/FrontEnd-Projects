@@ -1,0 +1,102 @@
+/*======== reset.css is here =========*/
+*{margin:0; padding:0; box-sizing:border-box;}
+table {	border-collapse:collapse; border-spacing:0;}
+fieldset,img{border:0;}
+ol,ul { list-style:none;margin:0}
+.clear{clear:both; font-size:1px;line-height:1px; display:block; height:0;}
+a{color: #2c2e2f;text-decoration: none;font-weight: 400;}
+
+/*--reset.css ends here--*/
+
+.wrapper{width: 100%; margin: 0 auto;  position: relative;font-family: 'Lato', sans-serif;}
+.container{width: 1192px;margin: 0 auto;}
+
+
+/* header start */
+.logo img{width: 25px;height: auto;  }
+.header_menu-list{display: flex;flex-direction: row;align-items: center;padding: 12px 0px;}
+.header_menu-list ul li a{font-weight: 600;}
+.header_menu-list ul{display: flex;flex-direction: row;padding: 0 0 0 45px;}
+.header_menu-list .list_items{margin: 0 36px;}
+.menu_buttons{margin-left: auto;}
+.menu_buttons .btn{border: 1px solid #142c8e;border-radius: 25px;padding: 10px;margin: 0 7px;width: 100px;height: 50px;font-weight: 600;color: #142c8e;cursor: pointer;}
+#btn1{background-color: #003087;color: #ffffff;}
+#btn1:hover{background-color: #3090c4;color: #ffffff;}
+.header_menu-list a:hover{text-decoration: underline;text-decoration-color: darkblue; text-decoration-thickness: 2px;text-underline-offset: 5px;}
+    
+/*Banner content*/
+.banner_block{background: #142C8E;}
+.banner_content{padding: 60px 0 0 0;}
+.banner_content h2{font-size: 6.25rem;line-height: 98px;font-weight: 400;color: #ffffff;font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;}
+.banner_content1{display: flex;justify-content: space-between;}
+.banner_content1 .col {width: 50%;padding: 30px 0 0 0;}
+.banner_lft h4{font-size: 1.25rem;line-height: 1.5;color: #fff;font-weight: 600;padding: 48px 0;}
+.banner_lft a{color: #56CCFE;font-size: 1.25rem;line-height: 32px;}
+.bannerlft_cnt{display: flex;justify-content: space-between;}
+.bannerlft_cnt .col {width: 35%;padding: 030px 62px 0px 0px;}
+.lft2{width: 70% !important;}
+.lft2 button{padding: 13px 20px;background: #F9B822;color: #0C0C0D;margin: 12px 0;width: 138px;height: 60px;border-radius: 30px;box-sizing: border-box;border: none;font-size: 15px;font-weight: 700;cursor: pointer;}
+.lft2 p{padding: 0px 0 0 0;color: #ffffff;}
+.phnnymr{padding: 10px 10px 10px 40px;width: 319px;height: 64px;border-radius: 5px;box-sizing: border-box;}
+.lft2:after {content: '';background: url(https://www.paypalobjects.com/marketing/web/shared/qrc-sms/phone.png) no-repeat;width: 75px;height: 75px;position: absolute;top: 23%;left: 5%;}
+.lft2{position: relative;}
+.lft1:before {content: '';width: 1px;height: 93%;background: #5666ab;top: 30px;right: 28px;position: absolute;}
+.lft1{position: relative;}
+.banner_lft{position: relative;}
+.banner_lft a:hover{text-decoration: underline;text-decoration-color: #a7bff5;color: #a7bff5;}
+.banner_lft a:after {content: "\f178";position: absolute;color: #56CCFE;font-size: 26px;font-family: 'FontAwesome';padding: 0 0 0px 7px;top: 33px;}
+
+/*connect_btn*/
+.onnect_btn{border-bottom: 1px solid #C4C4C4;}
+.onnectbtn_content{display: flex;justify-content: center;padding: 44px 0;}
+.onnectbtn_content h4{font-size: 18px;line-height: 32px;font-weight: 400;padding: 0 20px 0 0;}
+.onnectbtn_content a{font-size: 1.25rem;color: #1072EB;line-height: 32px;}
+.onnectbtn_content a{position: relative;}
+.cntnt_chng{}
+.onnectbtn_content a:hover{text-decoration: underline;text-decoration-color: #1a3fc9;color: #1a3fc9;}
+.onnectbtn_content a:after {content: "\f178";position: absolute;right: -35px;top: 3px;color: #1072EB;font-size: 26px;font-family: 'FontAwesome';}
+
+/*Offer_block*/
+.offerblock_flex{display: flex;justify-content: space-between;align-items: center;width: 1120px;padding: 100px 0 0 0;}
+.offerblock_flex .col {width: 50%;padding: 20px;}
+.offer_content span{color: #4A4A4A;font-size: .875rem;
+    line-height: 30px;margin: 20px 0 20px 0;display: flex;}
+.img_res{width:512px;height:450px;}
+.offer_content h2{font-size: 3rem;line-height: 56px;font-weight: 400;}
+.offer_content p{font-size: 1.25rem;color: #0C0C0D;line-height: 32px;padding-top: 20px;}
+.offer_content a{font-size: 1.25rem;color: #1072EB;line-height: 32px;margin-top: 20px;}
+.offer_content{position: relative;}
+.offer_content a:hover{text-decoration: underline;text-decoration-color: #1a3fc9;color: #1a3fc9;}
+.offer_content a:after {content: "\f178";position: absolute;color: #1072EB;font-size: 26px;font-family: 'FontAwesome';padding: 0 0 0px 7px;line-height: 37px;}
+
+/*brands_block*/
+.brands_content{width: 40% !important;}
+.brands_content h2{font-size: 3rem;line-height: 56px;text-align: left;color: #0C0C0D;font-weight: 400;}
+.brands_img{width: 60% !important;}
+.brands_img img{width: 195px;}
+
+/*Counter_Block*/
+.counter_block{background-color: #121661;}
+.counter_content{padding-top: 80px;padding-bottom: 90px;color: #ffffff;text-align: center;}
+.counter_content h2{font-size: 40px;margin: 0 0 40px 0;}
+.counter_content a{color: #0d3685;background: #ffffff;padding: 16px 90px;border-radius: 30px;font-size: 15px;font-family: sans-serif;font-weight: 600;}
+.Counter{margin: 0 auto;display: table;padding: 0 0 90px 0;}
+.Counter ul{display: flex;}
+.Counter ul li{color: #fff;font-size: 56px;
+    line-height: 80px;background-color: #1072EB;margin: 0px 1px;border-radius: 20px;width: 60px;height: 80px;text-align: center;align-items: center;}
+
+/*PPay_frns_block*/
+.Payfrns_content{}
+.Payfrns_content p{color: #687173;font-size: 14px;line-height: 20px;padding: 40px 0;}
+
+/*footer*/
+.footer_block{padding:60px 0px;}
+.footer_content{display: flex;flex-direction: row;border-bottom: 1px solid #cbd2d6;padding: 16px 0 5px 0;}
+.footer_content ul{display: flex;flex-direction: row;}
+.footer_content ul li{margin: 0 18px 0 0px;}
+.footer_content ul li a{color: #2c2e2f;font-size: 14px;font-weight: 700;}
+.footer_logo{margin-left:auto;}
+.footer_logo img{}
+#nbrdr{border-bottom: none;}
+#nbrdr ul li a{color: #687173;}
+/* Css end here */
