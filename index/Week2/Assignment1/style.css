@@ -1,7 +1,6 @@
 body {
   background-color: #181824;
   width: 98%;
-  border: 2px solid white;
 }
 
 .box {
@@ -54,7 +53,6 @@ body {
 }
 
 .main-container {
-  border: 2px solid white;
   height: 85vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,7 +164,6 @@ body {
 
 .section1 .sub-sec1-c1 {
   height: 30vh;
-  border: 2px solid white;
 }
 
 .section1 .sub-sec1-c1 .sec1-c1-text1 {
@@ -193,7 +190,6 @@ body {
 
 .section1 .sub-sec1-c2 {
   height: 40vh;
-  border: 2px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,7 +222,6 @@ body {
 
 .section2 {
   margin: 2% 5%;
-  border: 2px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,7 +229,6 @@ body {
 
 .section2 .sec2-p1 {
   width: 90%;
-  border: 2px solid white;
 }
 
 .section2 .sec2-p1 .sec2-heading {
@@ -283,7 +277,6 @@ body {
 
 .section3 {
   margin: 2% 5%;
-  border: 2px solid white;
 }
 
 .section3 .sub-sec3-c1 .sec3-c1-text1 {
@@ -315,7 +308,6 @@ body {
   display: inline-block;
   height: 320px;
   width: 300px;
-  border: 2px solid white;
   margin: 10px;
 }
 
@@ -418,7 +410,6 @@ body {
   width: 55%;
   margin: 5% 5%;
   height: 70vh;
-  border: 2px solid white;
 }
 
 .section4 .s4-sub-part1 .part1-t1 {
@@ -446,7 +437,7 @@ body {
 
 .section4 .s4-sub-part2 {
   margin: 5%;
-  border: 2px solid white;
+  height: 70vh;
 }
 
 .section4 .s4-sub-part2 .part2-t1 {
@@ -503,6 +494,57 @@ body {
   border-radius: 8px;
 }
 
+footer {
+  margin: 2% 5%;
+  height: 20vh;
+  border: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .fpart1 {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .fpart1 .p1-t1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  /* White */
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+footer .fpart2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+footer .fpart2 .p2-t1 {
+  margin: 1.5% 5%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  /* White */
+  color: #ffffff;
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 700px) {
   .nav-links {
     -webkit-box-orient: vertical;
@@ -551,6 +593,12 @@ body {
   .section4 .s4-sub-part2 {
     height: 80vh;
     width: 90%;
+  }
+  footer .fpart2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */
