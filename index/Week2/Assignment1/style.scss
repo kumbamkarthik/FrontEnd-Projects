@@ -143,7 +143,7 @@ body {
   }
   .sub-sec1-c2 {
     height: 40vh;
-    border: 2px solid white;
+    // border: 2px solid white;
     display: flex;
     .sec1-c2-text1 {
       margin-top: 0%;
@@ -316,7 +316,7 @@ body {
 .section4 {
   margin: 2% 5%;
   height: 80vh;
-  border: 2px solid white;
+  // border: 2px solid white;
   display: flex;
   .s4-sub-part1 {
     width: 55%;
@@ -343,6 +343,18 @@ body {
       /* identical to box height */
       /* White */
       color: #ffffff;
+    }
+    .sub-part1-t1 {
+      display: inline;
+      .bt1{
+        margin: 3% 3%;
+        height: 40px;
+        width: 50px;
+        .btn-img{
+          height: 30px;
+          width: 30px;
+        }
+      }
     }
   }
   .s4-sub-part2 {
@@ -480,8 +492,8 @@ footer {
       width: 90%;
     }
   }
-  footer{
-    .fpart2{
+  footer {
+    .fpart2 {
       flex-direction: column;
     }
   }

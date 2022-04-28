@@ -190,7 +190,6 @@ body {
 
 .section1 .sub-sec1-c2 {
   height: 40vh;
-  border: 2px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -401,7 +400,6 @@ body {
 .section4 {
   margin: 2% 5%;
   height: 80vh;
-  border: 2px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -434,6 +432,21 @@ body {
   /* identical to box height */
   /* White */
   color: #ffffff;
+}
+
+.section4 .s4-sub-part1 .sub-part1-t1 {
+  display: inline;
+}
+
+.section4 .s4-sub-part1 .sub-part1-t1 .bt1 {
+  margin: 3% 3%;
+  height: 40px;
+  width: 50px;
+}
+
+.section4 .s4-sub-part1 .sub-part1-t1 .bt1 .btn-img {
+  height: 30px;
+  width: 30px;
 }
 
 .section4 .s4-sub-part2 {
