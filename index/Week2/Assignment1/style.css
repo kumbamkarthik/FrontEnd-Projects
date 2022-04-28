@@ -190,6 +190,7 @@ body {
 
 .section1 .sub-sec1-c2 {
   height: 40vh;
+  border: 2px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -318,7 +319,7 @@ body {
 }
 
 .section3 .sub-sec3-c2 .sec3-part .sub-part2 {
-  height: 15vh;
+  height: 18vh;
 }
 
 .section3 .sub-sec3-c2 .sec3-part .sub-part2 .sub-part2-t1 {
@@ -399,7 +400,7 @@ body {
 
 .section4 {
   margin: 2% 5%;
-  height: 100vh;
+  height: 80vh;
   border: 2px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -496,8 +497,8 @@ body {
 
 footer {
   margin: 2% 5%;
+  margin-top: 0%;
   height: 20vh;
-  border: 2px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
