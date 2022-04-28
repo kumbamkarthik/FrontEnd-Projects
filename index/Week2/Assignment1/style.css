@@ -281,6 +281,130 @@ body {
   height: 90%;
 }
 
+.section3 {
+  margin: 2% 5%;
+  border: 2px solid white;
+}
+
+.section3 .sub-sec3-c1 .sec3-c1-text1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+  /* Primary-colour */
+  color: #7562e0;
+}
+
+.section3 .sub-sec3-c1 .sec3-c1-text2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  color: #ffffff;
+}
+
+.section3 .sub-sec3-c2 {
+  margin: 5%;
+}
+
+.section3 .sub-sec3-c2 .sec3-part {
+  display: inline-block;
+  height: 320px;
+  width: 300px;
+  border: 2px solid white;
+  margin: 10px;
+}
+
+.section3 .sub-sec3-c2 .sec3-part .sub-part1 .sub-img {
+  height: 100%;
+  width: 100%;
+  height: 20vh;
+}
+
+.section3 .sub-sec3-c2 .sec3-part .sub-part2 {
+  height: 15vh;
+}
+
+.section3 .sub-sec3-c2 .sec3-part .sub-part2 .sub-part2-t1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  /* Primary-colour */
+  color: #7562e0;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.section3 .sub-sec3-c2 .sec3-part .sub-part2 .sub-part2-t2 {
+  height: 12vh;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* White */
+  color: #ffffff;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.section3 .sub-sec3-c2 .sec3-part .sub-part3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 4%;
+}
+
+.section3 .sub-sec3-c2 .sec3-part .sub-part3 .bt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 25px;
+  background: #7562e0;
+  border-radius: 8px;
+}
+
+.section3 .sub-sec3-c2 .sec3-part .sub-part3 .bt2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 34px;
+  border: 2px solid #7562e0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+}
+
 @media screen and (max-width: 700px) {
   .nav-links {
     -webkit-box-orient: vertical;
@@ -294,7 +418,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 155vh;
+    height: 125vh;
   }
   .main-container .MyImage {
     width: 40%;
@@ -302,6 +426,9 @@ body {
   }
   .section1 .sub-sec1-c1 {
     height: 50vh;
+  }
+  .section1 .sub-sec1-c2 {
+    height: 70vh;
   }
   .section2 {
     -webkit-box-orient: vertical;
