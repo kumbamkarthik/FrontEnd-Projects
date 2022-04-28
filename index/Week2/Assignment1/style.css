@@ -436,5 +436,8 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .section3 .sub-sec3-c2 {
+    margin: 1%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

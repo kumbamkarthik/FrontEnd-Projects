@@ -313,8 +313,6 @@ body {
     }
   }
 }
-@media screen and (max-width: 1000px) {
-}
 @media screen and (max-width: 700px) {
   .nav-links {
     flex-direction: column;
@@ -338,6 +336,11 @@ body {
   }
   .section2 {
     flex-direction: column;
+  }
+  .section3{
+    .sub-sec3-c2{
+      margin: 1%;
+    }
   }
 }
 // .navbar {
