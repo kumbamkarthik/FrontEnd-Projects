@@ -143,7 +143,7 @@ body {
   }
   .sub-sec1-c2 {
     height: 40vh;
-    // border: 2px solid white;
+    border: 2px solid white;
     display: flex;
     .sec1-c2-text1 {
       margin-top: 0%;
@@ -260,7 +260,7 @@ body {
         }
       }
       .sub-part2 {
-        height: 15vh;
+        height: 18vh;
         .sub-part2-t1 {
           font-family: "Poppins";
           font-style: normal;
@@ -315,7 +315,7 @@ body {
 }
 .section4 {
   margin: 2% 5%;
-  height: 100vh;
+  height: 80vh;
   border: 2px solid white;
   display: flex;
   .s4-sub-part1 {
@@ -402,8 +402,9 @@ body {
 }
 footer {
   margin: 2% 5%;
+  margin-top: 0%;
   height: 20vh;
-  border: 2px solid white;
+  // border: 2px solid white;
   display: flex;
   .fpart1 {
     width: 40%;
