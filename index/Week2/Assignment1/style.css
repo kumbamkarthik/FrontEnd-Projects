@@ -438,13 +438,13 @@ body {
   display: inline;
 }
 
-.section4 .s4-sub-part1 .sub-part1-t1 .bt1 {
+.section4 .s4-sub-part1 .sub-part1-t1 .bty {
   margin: 3% 3%;
   height: 40px;
   width: 50px;
 }
 
-.section4 .s4-sub-part1 .sub-part1-t1 .bt1 .btn-img {
+.section4 .s4-sub-part1 .sub-part1-t1 .bty .btn-img {
   height: 30px;
   width: 30px;
 }
@@ -614,5 +614,33 @@ footer .fpart2 .p2-t1 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.link1:hover {
+  border-bottom: 2px solid white;
+}
+
+.link2:hover {
+  border-bottom: 2px solid white;
+}
+
+.button1:hover {
+  border: 5px solid white;
+}
+
+.bt1:hover {
+  border: 2px solid white;
+}
+
+.bt2:hover {
+  border: 2px solid orange;
+}
+
+.btx:hover {
+  border: 2px solid white;
+}
+
+.name:hover {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

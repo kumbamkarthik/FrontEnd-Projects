@@ -346,7 +346,7 @@ body {
     }
     .sub-part1-t1 {
       display: inline;
-      .bt1{
+      .bty{
         margin: 3% 3%;
         height: 40px;
         width: 50px;
@@ -497,4 +497,25 @@ footer {
       flex-direction: column;
     }
   }
+}
+.link1:hover{
+  border-bottom: 2px solid white;
+}
+.link2:hover{
+  border-bottom: 2px solid white;
+}
+.button1:hover{
+  border: 5px solid white;
+}
+.bt1:hover{
+  border: 2px solid white;
+}
+.bt2:hover{
+  border: 2px solid orange;
+}
+.btx:hover{
+  border: 2px solid white;
+}
+.name:hover{
+  color: white;
 }
