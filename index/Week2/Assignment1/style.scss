@@ -26,7 +26,7 @@ body {
       font-weight: 600;
       font-size: 18px;
       line-height: 27px;
-      color: #412faa;
+      color: white;
     }
     .link2 {
       margin: 0px 5%;
@@ -134,7 +134,7 @@ body {
       font-family: "Poppins";
       font-style: normal;
       font-weight: 500;
-      font-size: 18px;
+      font-size: 24px;
       line-height: 32px;
       /* or 178% */
       /* White */
@@ -187,6 +187,7 @@ body {
     }
     .sec2-skills {
       list-style: none;
+      // border: 2px solid white;
       .sec2-c2-text2 {
         font-family: "Poppins";
         font-style: normal;
@@ -241,7 +242,8 @@ body {
     }
   }
   .sub-sec3-c2 {
-    margin: 5%;
+    margin: 3%;
+    // border: 2px solid white;
     .sec3-part {
       display: inline-block;
       height: 320px;
@@ -358,11 +360,13 @@ body {
     }
   }
   .s4-sub-part2 {
-    margin: 5%;
+    margin: 1%;
     // border: 2px solid white;
     height: 70vh;
+    // border: 2px solid white;
     .part2-t1 {
-      margin: 20px;
+      // border: 2px solid white;
+      margin: 20px 8px;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 500;
@@ -370,7 +374,7 @@ body {
       line-height: 36px;
       /* identical to box height */
       /* White */
-      color: #ffffff;
+      color: #7562e0;
     }
     .ip1 {
       margin: 10px;
@@ -378,9 +382,10 @@ body {
       width: 272px;
       height: 52px;
       /* Light-colour */
-      background: #f5f5f5;
-      opacity: 0.11;
+      background: black;
       border-radius: 8px;
+      color: white;
+      border: 2px solid white;
     }
     .ip2 {
       margin: 10px;
@@ -388,9 +393,11 @@ body {
       width: 272px;
       height: 52px;
       /* Light-colour */
-      background: #f5f5f5;
-      opacity: 0.11;
+      background: black;
       border-radius: 8px;
+      color: white;
+      border: 2px solid white;
+      
     }
     .ip3 {
       margin: 10px;
@@ -398,9 +405,10 @@ body {
       width: 272px;
       height: 78px;
       /* Light-colour */
-      background: #f5f5f5;
-      opacity: 0.11;
+      background: black;
       border-radius: 8px;
+      color: white;
+      border: 2px solid white;
     }
     .btx {
       margin: 10px;
@@ -518,4 +526,13 @@ footer {
 }
 .name:hover{
   color: white;
+}
+.sec2-heading:hover{
+   color: white ;
+}
+::placeholder{
+  color: white !important;
+}
+cursor.link1{
+  color: #7562e0;
 }
