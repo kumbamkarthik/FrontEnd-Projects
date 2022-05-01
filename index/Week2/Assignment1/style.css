@@ -27,6 +27,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -127,6 +129,11 @@ body {
   margin-right: 2%;
 }
 
+.main-container .main-sub-c1 .sub-head2 .button1:hover {
+  background-color: white;
+  color: #181824;
+}
+
 .main-container .main-sub-c1 .sub-head2 .button2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,6 +151,11 @@ body {
           box-sizing: border-box;
   border-radius: 8px;
   margin-left: 2%;
+}
+
+.main-container .main-sub-c1 .sub-head2 .button2:hover {
+  background-color: #7562e0;
+  color: white;
 }
 
 .main-container .main-sub-c2 {
@@ -177,6 +189,10 @@ body {
   color: #7562e0;
 }
 
+.section1 .sub-sec1-c1 .sec1-c1-text1:hover {
+  color: #f5f5f5;
+}
+
 .section1 .sub-sec1-c1 .sec1-c1-text2 {
   font-family: "Poppins";
   font-style: normal;
@@ -205,6 +221,10 @@ body {
   /* identical to box height */
   /* Primary-colour */
   color: #7562e0;
+}
+
+.section1 .sub-sec1-c2 .sec1-c2-text1:hover {
+  color: #ffffff;
 }
 
 .section1 .sub-sec1-c2 .sec1-c2-text2 {
@@ -397,6 +417,10 @@ body {
   border-radius: 8px;
 }
 
+.section3 .sub-sec3-c2 .sec3-part .sub-part3 .bt2:hover {
+  background-color: #7562e0;
+}
+
 .section4 {
   margin: 2% 5%;
   height: 80vh;
@@ -423,6 +447,10 @@ body {
   margin-bottom: 0%;
 }
 
+.section4 .s4-sub-part1 .part1-t1:hover {
+  color: white;
+}
+
 .section4 .s4-sub-part1 .part1-t2 {
   font-family: "Poppins";
   font-style: normal;
@@ -447,6 +475,10 @@ body {
 .section4 .s4-sub-part1 .sub-part1-t1 .bty .btn-img {
   height: 30px;
   width: 30px;
+}
+
+.section4 .s4-sub-part1 .sub-part1-t1 .bty:hover {
+  border: 4px solid black;
 }
 
 .section4 .s4-sub-part2 {
@@ -511,6 +543,11 @@ body {
   border-radius: 8px;
 }
 
+.section4 .s4-sub-part2 .btx:hover {
+  background-color: #f5f5f5;
+  color: #181824;
+}
+
 footer {
   margin: 2% 5%;
   margin-top: 0%;
@@ -546,6 +583,8 @@ footer .fpart2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
 }
 
@@ -611,12 +650,6 @@ footer .fpart2 .p2-t1 {
     height: 80vh;
     width: 90%;
   }
-  footer .fpart2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 
 .link1:hover {
@@ -625,10 +658,6 @@ footer .fpart2 .p2-t1 {
 
 .link2:hover {
   border-bottom: 2px solid white;
-}
-
-.button1:hover {
-  border: 5px solid white;
 }
 
 .bt1:hover {
@@ -665,9 +694,5 @@ footer .fpart2 .p2-t1 {
 
 ::placeholder {
   color: white !important;
-}
-
-cursor.link1 {
-  color: #7562e0;
 }
 /*# sourceMappingURL=style.css.map */
