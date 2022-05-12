@@ -26,7 +26,6 @@ body .container .text1:hover {
 body .container .tasks .eachTasks .eachLi {
   margin: 2% 0%;
   height: 100%;
-  border: 2px solid white;
   border-radius: 2%;
   background-color: #f0e5e5;
   color: black;
@@ -35,6 +34,7 @@ body .container .tasks .eachTasks .eachLi {
   display: -ms-flexbox;
   display: flex;
   padding-top: 0%;
+  padding: 0% 2%;
 }
 
 body .container .tasks .eachTasks .eachLi .pt1 {
@@ -47,10 +47,11 @@ body .container .tasks .eachTasks .eachLi input.pt2 {
   width: 5%;
 }
 
-body .container .tasks .eachTasks .eachLi .pt3 {
-  padding-top: 20%;
-  width: 90%;
-  height: 6vh;
+body .container .tasks .eachTasks .eachLi .material-symbols-outlined {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 6.5%;
 }
 
 body .container .tasks .btns {
@@ -63,6 +64,7 @@ body .container .tasks .btns {
 }
 
 body .container .tasks .btns .bt1 {
+  display: block;
   padding: 1% 3%;
   margin: 0% 2%;
 }
@@ -72,6 +74,7 @@ body .container .tasks .btns .bt1:hover {
 }
 
 body .container .tasks .btns .bt2 {
+  display: block;
   padding: 1% 3%;
   margin: 0% 2%;
 }
@@ -82,10 +85,6 @@ body .container .tasks .btns .bt2:hover {
 
 body .container .addTasks .tt1:hover {
   color: darkorchid;
-}
-
-body .container .addTasks .form {
-  border: 2px solid white;
 }
 
 body .container .addTasks .form .ct1 {
