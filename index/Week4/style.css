@@ -48,9 +48,8 @@ body .container .tasks .eachTasks .eachLi input.pt2 {
 }
 
 body .container .tasks .eachTasks .eachLi .material-symbols-outlined {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   padding-top: 6.5%;
 }
 
