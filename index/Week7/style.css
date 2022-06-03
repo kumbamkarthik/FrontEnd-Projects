@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    width: 50%;
+}
+.container{
+
+}
+#postContainer1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+.image{
+    height: 15vh;
+    width: 100px;
+}
+.btn{
+   margin: 2%;
+}
+@media screen and (max-width: 800px) {
+    body{
+        width: 80%;
+        justify-content: center;
+    }
+}
