@@ -173,4 +173,7 @@ input[type="checkbox"] {
     .search{
         display: none;
     }
+    body{
+        font-style: italic;
+    }
 }
