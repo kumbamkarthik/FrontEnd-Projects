@@ -41,7 +41,7 @@ li {
   font-size: 18px;
 }
 .menu li:hover {
-  background-color: #4c9e9e;
+  background-color: brown;
   border-radius: 5px;
   transition: 0.3s ease;
 }
@@ -52,7 +52,7 @@ li {
   position: relative;
 }
 .dropdown {
-  background-color: rgb(1, 139, 139);
+  background-color:  rgb(88, 92, 227);
   padding: 1em 0;
   position: absolute;
   display: none;
@@ -68,7 +68,7 @@ li {
   text-align: center;
 }
 .dropdown li:hover {
-  background-color: #4c9e9e;
+  background-color: brown;
 }
 .services:hover .dropdown {
   display: block;
@@ -183,23 +183,36 @@ input[type="checkbox"] {
 /* -----------------------------------------------------------------------*/
 main{
   margin: 3%;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   display: flex;
   flex-wrap: wrap;
 }
-section{
+.movie{
   margin: 1%;
   width: 300px;
-  border: 2px solid white;
+  border: 5px solid white;
+  border-color: brown;
+  border-radius: 3%;
   /* display: inline-block; */
   background: rgba(9, 132, 154, 0.195);
 }
 .movie_img{
   height: 40vh;
-  width: 296px;
+  width: 290px;
+  border-radius: 2%;
+}
+.sub-part1{
+  margin: 2% 5%;
+}
+.title{
+  color: rgb(99, 60, 13);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .sub-part2{
   margin: 2%;
+}
+.rating{
+  color: black;
 }
 .sub-part3{
   margin: 2%;
