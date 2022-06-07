@@ -123,7 +123,7 @@ input[type="checkbox"] {
 }
 @media (max-width: 1000px) {
   body{
-    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .navbar {
     display: flex;
