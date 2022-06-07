@@ -177,3 +177,27 @@ input[type="checkbox"] {
         font-style: italic;
     }
 }
+/* -----------------------------------------------------------------------*/
+main{
+  margin: 3%;
+  border: 2px solid white;
+  display: flex;
+  flex-wrap: wrap;
+}
+section{
+  margin: 1%;
+  width: 300px;
+  border: 2px solid white;
+  /* display: inline-block; */
+  background: rgba(9, 132, 154, 0.195);
+}
+.movie_img{
+  height: 40vh;
+  width: 296px;
+}
+.sub-part2{
+  margin: 2%;
+}
+.sub-part3{
+  margin: 2%;
+}
