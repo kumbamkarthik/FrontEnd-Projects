@@ -122,6 +122,9 @@ input[type="checkbox"] {
   border: 2px solid green;
 }
 @media (max-width: 1000px) {
+  body{
+    font-style: normal;
+  }
   .navbar {
     display: flex;
     flex-wrap: wrap;
