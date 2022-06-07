@@ -137,7 +137,7 @@ input[type="checkbox"] {
   .menu {
     display: none;
     position: absolute;
-    background-color: teal;
+    background-color: rgb(88, 92, 227);
     right: 0%;
     left: 0%;
     text-align: center;
@@ -145,7 +145,7 @@ input[type="checkbox"] {
   }
   .menu li:hover {
     display: inline-block;
-    background-color: #4c9e9e;
+    background-color:  rgb(88, 92, 227);
     transition: 0.3s ease;
   }
   .menu li + li {
@@ -165,13 +165,13 @@ input[type="checkbox"] {
     transform: translateX(35%);
   }
   .dropdown li:hover {
-    background-color: #4c9e9e;
+    background-color:  rgb(88, 92, 227);
   }
 }
 @media (max-width: 700px){
     .nav2{
         display: block;
-        background-color: teal;
+        background-color: rgb(88, 92, 227);
     }
     .search{
         display: none;
