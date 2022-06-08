@@ -80,3 +80,32 @@ function task2(){
     getMovies(API_URL);
     toggle();
 }
+
+const marvel = document.getElementById('marvel');
+marvel.addEventListener('click',task3);
+function task3(){
+  console.log('Yes marvel');
+  getMovies(searchURL+'&query='+'marvel');
+}
+
+const dc = document.getElementById('dc');
+dc.addEventListener('click',task4);
+function task4(){
+  console.log('Yes dc');
+  getMovies(searchURL+'&query='+'dc');
+}
+
+const warner = document.getElementById('warner');
+warner.addEventListener('click',task5);
+function task5(){
+  console.log('Yes warnerbros');
+  getMovies(searchURL+'&query='+'warner');
+}
+
+
+const nolan = document.getElementById('nolan');
+nolan.addEventListener('click',task6);
+function task6(){
+  console.log('Yes nolan');
+  getMovies(searchURL+'&query='+'nolan');
+}
