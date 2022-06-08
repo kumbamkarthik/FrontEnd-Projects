@@ -86,6 +86,7 @@ marvel.addEventListener('click',task3);
 function task3(){
   console.log('Yes marvel');
   getMovies(searchURL+'&query='+'marvel');
+  toggle();
 }
 
 const dc = document.getElementById('dc');
@@ -93,6 +94,7 @@ dc.addEventListener('click',task4);
 function task4(){
   console.log('Yes dc');
   getMovies(searchURL+'&query='+'dc');
+  toggle();
 }
 
 const warner = document.getElementById('warner');
@@ -100,6 +102,7 @@ warner.addEventListener('click',task5);
 function task5(){
   console.log('Yes warnerbros');
   getMovies(searchURL+'&query='+'warner');
+  toggle();
 }
 
 
@@ -108,4 +111,5 @@ nolan.addEventListener('click',task6);
 function task6(){
   console.log('Yes nolan');
   getMovies(searchURL+'&query='+'nolan');
+  toggle();
 }
