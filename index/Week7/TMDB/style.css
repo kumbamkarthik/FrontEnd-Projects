@@ -217,3 +217,23 @@ main{
 .sub-part3{
   margin: 2%;
 }
+
+@media (max-width: 500px) {
+  .movie{
+    margin: 1%;
+    width: 150px;
+    border: 5px solid white;
+    border-color: brown;
+    border-radius: 3%;
+    /* display: inline-block; */
+    background: rgba(9, 132, 154, 0.195);
+  }
+  .movie_img{
+    height: 40vh;
+    width: 140px;
+    border-radius: 2%;
+  }
+  .title{
+    font-size: 20px;
+  }
+}
